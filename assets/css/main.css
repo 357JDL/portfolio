@@ -1526,6 +1526,10 @@ input, select, textarea {
 				width: auto;
 			}
 
+	.portrait{
+		width: 100%;
+	}		
+
 /* List */
 
 	ul {
@@ -2702,4 +2706,9 @@ input, select, textarea {
 					border-left: 0;
 				}
 
+	}
+
+	.self{
+		font-size: 1.5em;
+		padding: 5%;
 	}

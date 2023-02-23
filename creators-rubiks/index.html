@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Source Website">
+  <meta name="keywords" content="one, two, three">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Source Website</title>
+
+  <!-- external CSS link -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:100,300,400">
+</head>
+
+<body>
+  <div id="page-wrapper">
+    <header>
+      <nav>
+        <ul class="header-list">
+          <li>Source</li>
+          <li><a href="#">First Link</a></li>
+          <li><a href="#">Second Link</a></li>
+          <li><a href="#">Third Link</a></li>
+          <li><a href="#">Fourth Link</a></li>
+          <li><button id="btn">Sign In</button></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="container">
+      <div class="half-page">
+        <span>Tagline</span>
+        <h1>Source helps creators do more of what they love</h1>
+        <form>
+          <input type="text" placeholder="Enter text" class="search-field">
+        </form>
+        <button id="btn" class="smaller-button">Search</button>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque gravida arcu at nisi porta, ac lacinia tellus aliquam. In ac lorem accumsan, tempus libero id, interdum risus.</p>
+      </div>
+      <div class="slide-container">
+        <section class="slides fade">
+          <img src="https://images.unsplash.com/photo-1513477967668-2aaf11838bd6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80" alt="inspiration do good today">
+        </section>
+        <section class="slides fade">
+          <img src="https://images.unsplash.com/photo-1549981832-2ba2ee913334?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80" alt="woman holding camera">
+        </section>
+        <section class="slides fade">
+          <img src="https://images.unsplash.com/photo-1488751045188-3c55bbf9a3fa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80" alt="person working on laptop">
+        </section>
+        <section class="slides fade">
+          <img src="https://images.unsplash.com/photo-1507537297725-24a1c029d3ca?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80" alt="person working on laptop">
+        </section>
+        <section class="slides fade">
+          <img src="https://images.unsplash.com/photo-1590649917466-06e6e1c3e92d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80" alt="women working together in office">
+        </section>
+        <section class="slides fade">
+          <img src="https://images.unsplash.com/photo-1579389083395-4507e98b5e67?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80" alt="men working together in office">
+        </section>        
+   
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      <br>
+
+      <!-- The dots/circles -->
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+        <span class="dot" onclick="currentSlide(6)"></span>
+      </div>
+        </div>
+    </main>
+
+    <div class="features-list banner">
+      <section>
+        <img class="feature-icons" src="https://images.unsplash.com/photo-1633409361618-c73427e4e206?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1480&q=80" alt="feature one image" />
+        <p class="test">Feature one</p>
+        <p class="test">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque gravida arcu at nisi porta, ac lacinia tellus aliquam.</p>
+        <a href="#">First link</a>
+      </section>
+      <section>
+        <img class="feature-icons" src="https://images.unsplash.com/photo-1633409361618-c73427e4e206?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1480&q=80" alt="feature one image" />
+        <p>Feature two</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque gravida arcu at nisi porta, ac lacinia tellus aliquam.</p>
+        <a href="#">Second link</a>
+      </section>
+      <section>
+        <img class="feature-icons" src="https://images.unsplash.com/photo-1633409361618-c73427e4e206?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1480&q=80" alt="feature one image" />
+        <p>Feature three</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque gravida arcu at nisi porta, ac lacinia tellus aliquam.</p>
+        <a href="#">Third link</a>
+      </section>
+      <section>
+        <img class="feature-icons" src="https://images.unsplash.com/photo-1633409361618-c73427e4e206?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1480&q=80" alt="feature one image" />
+        <p>Feature four</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque gravida arcu at nisi porta, ac lacinia tellus aliquam.</p>
+        <a href="#">Fourth link</a>
+      </section>
+    </div>
+
+    <div class="container">
+      <section class="half-page">
+        <h1>Collecting information about the problem</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque gravida arcu at nisi porta, ac lacinia tellus aliquam. In ac lorem accumsan, tempus libero id, interdum risus. Pellentesque pellentesque posuere elementum. Proin non mi non metus aliquam pulvinar. Etiam id facilisis magna, non sagittis erat.</p>
+      </section>
+      <section class="half-page">
+        <img class="rubiks" src="https://images.unsplash.com/photo-1587093336587-eeca6cb17cf2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2179&q=80" alt="rubiks cube">
+      </section>
+    </div>
+
+    <div class="banner create-account">
+      <h1>Ready to get this party started?</h1>
+      <h2>Create an Account</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque gravida arcu at nisi porta, ac lacinia tellus aliquam. In ac lorem accumsan, tempus libero id, interdum risus. Pellentesque pellentesque posuere elementum. Proin non mi non metus aliquam pulvinar. Etiam id facilisis magna, non sagittis erat.</p>
+      <button id="btn" class="smaller-button">Create Account</button>
+    </div>
+
+    <footer>
+      <ul>
+        <li>&copy; Joey Lam. All rights reserved.</li>
+        <li>&nbsp;Design: <a href="http://html5up.net">HTML5 UP</a></li>
+      </ul>
+    </footer>
+  </div>
+  <script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>

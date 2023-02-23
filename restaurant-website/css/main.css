@@ -45,7 +45,7 @@
 main {
   background-image: url("https://images.unsplash.com/photo-1473093295043-cdd812d0e601?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2340&q=80");
   background-size: cover;
-  height: 600px;
+  /* height: 65vh; */
 }
 
 nav ul * {
@@ -72,19 +72,21 @@ nav ul * {
 
 input {
   font-size: 1.5rem;
-  padding-left: 30px;
+  padding-left: 3rem;
+  margin-bottom: 5%;
 }
 
 .likes li {
   display: inline-block;
-  font-size: 20px;
-  margin-right: 25px;
+  font-size: 2rem;
+  margin-right: 2.5rem;
 }
 
 main + section {
   background-image: url("https://images.unsplash.com/photo-1505935428862-770b6f24f629?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2067&q=80");
   background-size: cover;
-  height: 600px;
+  padding-bottom: 3%;
+  /* height: 600px; */
 }
 
 .about-us {
@@ -158,7 +160,7 @@ h4{
 
 ul.center * {
   display: inline-block;
-  padding: 15px;
+  padding: 1.5rem;
   border-bottom: 2px solid gray;
 }
 
@@ -169,8 +171,8 @@ ul.center *:hover {
 
 .discs {
   height: 5%;
-  width: 30%;
-  margin: auto;
+  display: flex;
+  justify-content: center;
 }
 
 .scroll * {
@@ -234,6 +236,37 @@ div > p.center.o-text {
   }
   .pics{
     display: flex;
+    height: 70%;
+  }
+  .hours-open * {
+    font-size: 2.5rem;
+  }
+}
+
+@media all and (max-width: 440px){
+  .pics *{
+    display: none;
+  }
+  #pic1{
+    display: block;
     height: 100%;
+    width: 100%;
+  }
+  .scroll *:first-child{
+    color: orange;
+  }
+
+  ul.center{
+    padding: 0;
+  }
+  ul.center *{
+    padding: 1%;
+  }
+}
+
+@media all and (max-width: 605px){
+  .likes li{
+    display: block;
+    list-style-type: none;
   }
 }
