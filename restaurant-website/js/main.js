@@ -109,3 +109,13 @@ function showPic8(){
 	document.querySelector("#pic6").style.display = "none";
 	document.querySelector("#pic7").style.display = "none";
 }
+
+function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
