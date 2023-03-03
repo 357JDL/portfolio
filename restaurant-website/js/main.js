@@ -9,8 +9,8 @@ document.querySelector("#pic-8").addEventListener('click', showPic8)
 
 function showPic1(){
 	document.querySelector("#pic1").style.display = "block";
-	document.querySelector("#pic1").style.height = "100%";
-	// document.querySelector("#pic1").style.width = "100%";
+	document.querySelector("#pic1").style.height = "525px";
+	document.querySelector("#pic1").style.width = "350px";
 	document.querySelector("#pic2").style.display = "none";
 	document.querySelector("#pic3").style.display = "none";
 	document.querySelector("#pic4").style.display = "none";
@@ -22,8 +22,8 @@ function showPic1(){
 
 function showPic2(){
 	document.querySelector("#pic2").style.display = "block";
-	document.querySelector("#pic2").style.height = "100%";
-	// document.querySelector("#pic2").style.width = "100%";
+	document.querySelector("#pic2").style.height = "525px";
+	document.querySelector("#pic2").style.width = "350px";
 	document.querySelector("#pic1").style.display = "none";
 	document.querySelector("#pic3").style.display = "none";
 	document.querySelector("#pic4").style.display = "none";
@@ -35,8 +35,8 @@ function showPic2(){
 
 function showPic3(){
 	document.querySelector("#pic3").style.display = "block";
-	document.querySelector("#pic3").style.height = "100%";
-	// document.querySelector("#pic3").style.width = "100%";
+	document.querySelector("#pic3").style.height = "525px";
+	document.querySelector("#pic3").style.width = "350px";
 	document.querySelector("#pic1").style.display = "none";
 	document.querySelector("#pic2").style.display = "none";
 	document.querySelector("#pic4").style.display = "none";
@@ -48,8 +48,8 @@ function showPic3(){
 
 function showPic4(){
 	document.querySelector("#pic4").style.display = "block";
-	document.querySelector("#pic4").style.height = "100%";
-	// document.querySelector("#pic4").style.width = "100%";
+	document.querySelector("#pic4").style.height = "525px";
+	document.querySelector("#pic4").style.width = "350px";
 	document.querySelector("#pic1").style.display = "none";
 	document.querySelector("#pic2").style.display = "none";
 	document.querySelector("#pic3").style.display = "none";
@@ -60,8 +60,8 @@ function showPic4(){
 }
 function showPic5(){
 	document.querySelector("#pic5").style.display = "block";
-	document.querySelector("#pic5").style.height = "100%";
-	// document.querySelector("#pic5").style.width = "100%";
+	document.querySelector("#pic5").style.height = "525px";
+	document.querySelector("#pic5").style.width = "350px";
 	document.querySelector("#pic1").style.display = "none";
 	document.querySelector("#pic2").style.display = "none";
 	document.querySelector("#pic3").style.display = "none";
@@ -73,8 +73,8 @@ function showPic5(){
 
 function showPic6(){
 	document.querySelector("#pic6").style.display = "block";
-	document.querySelector("#pic6").style.height = "100%";
-	// document.querySelector("#pic6").style.width = "100%";
+	document.querySelector("#pic6").style.height = "525px";
+	document.querySelector("#pic6").style.width = "350px";
 	document.querySelector("#pic1").style.display = "none";
 	document.querySelector("#pic2").style.display = "none";
 	document.querySelector("#pic3").style.display = "none";
@@ -86,8 +86,8 @@ function showPic6(){
 
 function showPic7(){
 	document.querySelector("#pic7").style.display = "block";
-	document.querySelector("#pic7").style.height = "100%";
-	// document.querySelector("#pic7").style.width = "100%";
+	document.querySelector("#pic7").style.height = "525px";
+	document.querySelector("#pic7").style.width = "350px";
 	document.querySelector("#pic1").style.display = "none";
 	document.querySelector("#pic2").style.display = "none";
 	document.querySelector("#pic3").style.display = "none";
@@ -99,8 +99,8 @@ function showPic7(){
 
 function showPic8(){
 	document.querySelector("#pic8").style.display = "block";
-	document.querySelector("#pic8").style.height = "100%";
-	// document.querySelector("#pic8").style.width = "100%";
+	document.querySelector("#pic8").style.height = "525px";
+	document.querySelector("#pic8").style.width = "350px";
 	document.querySelector("#pic1").style.display = "none";
 	document.querySelector("#pic2").style.display = "none";
 	document.querySelector("#pic3").style.display = "none";
