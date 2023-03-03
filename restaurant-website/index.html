@@ -15,20 +15,22 @@
 
 <body>
   <main>
-    <header>
-      <nav>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About Us</a></li>
-          <li><a href="#">Menu</a></li>
-          <li><a href="#">Order Now</a></li>
-          <li><a href="#">Blog</a></li>
-          <li><a href="#">Location</a></li>
-          <li><a href="#"><img class="mag" src="https://media.istockphoto.com/id/1206806317/vector/shopping-cart-icon-isolated-on-white-background.webp?s=612x612&w=is&k=20&c=QHCSfGDYGVqbBZ5GvAmrePdsHmAvkyd_1xLI6dzzLWE=" alt="shopping cart"></a></li>
-          <li><a href="#"><img class="mag" src="https://img.freepik.com/premium-vector/magnifier-magnifying-glass_108855-4187.jpg?w=1380" alt="magnifying search icon"></a></li>
-        </ul>
-      </nav>
-    </header>
+    <div id="mySidebar" class="sidebar">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+      <a href="#">Home</a>
+      <a href="#">Menu</a>
+      <a href="#">Order Now</a>
+      <a href="#">Location</a>
+      <a href="#">About Us</a>
+      <a href="#">Blog</a>
+      <a href="#">Shopping Cart</a>
+      <a href="#">Search</a>
+    </div>
+
+    <div id="main">
+      <button class="openbtn" onclick="openNav()">☰ Navigate</button>  
+    </div>
+    
     <div class="container">
       <h1>Welcome<br>To Our Cuisine <br>Restaurant</h1>
       <form>
